@@ -5,26 +5,30 @@ import threading
 from discord.ext import commands
 from discord.ext.commands.cooldowns import BucketType
 
-
 #----------------------------Commands---------------------------------
 
 class Main_Commands(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
+    
+#pings the bot
+    
     @commands.command()
     async def ping(self, ctx):
         await ctx.send(f'Ping is: `{round(self.bot.latency * 1000)}ms`')
     
 # invite the bot.
 
-    @commands.command()
-    async def inv(self, ctx):
-        embed = discord.Embed(
-        colour = ctx.author.colour
-        )
-        embed.add_field(name='Here it is!', value='https://discord.com/oauth2/authorize?client_id=665542847684018189&scope=bot&permissions=0', inline=True)
-        embed.set_footer(text=f"Requested by: {ctx.author}")
-        await ctx.send(embed=embed)
+    @commands.command(description="Get a link to invite me.", usage="invite")
+    async def invite(self, ctx):
+        await ctx.send(
+            embed=discord.Embed(
+                title="Invite Link",
+                description=f"https://discordapp.com/api/oauth2/authorize?client_id={self.bot.user.id}"
+                    "&permissions=268823640&scope=bot",
+                colour=ctx.author.colour,
+                )
+            )
 
 # show member's avatar.
 
