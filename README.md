@@ -55,4 +55,6 @@
 
 ```inv```
 
-***to invite the bot to your server***
+***to invite my own bot to your server***
+
+* Note: May not be online!
