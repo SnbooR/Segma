@@ -40,7 +40,4 @@ for filename in os.listdir('./cogs'): #loads all files (*.py)
         bot.load_extension(f'cogs.{filename[:-3]}') #loads the file without ".py" for example: cogs.ping
         print(f'Loaded {filename[:-3]}')
 
-#end of weather---------------------------------------------------------------
-# Time Zones----------------------------------------
-
 bot.run('YOUR_TOKEN_HERE')
