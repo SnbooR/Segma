@@ -23,7 +23,7 @@
 `$ pip install requests`
 
 
-***Mac***
+***Mac:***
 
 ```$ sudo easy_install pip```
 
