@@ -20,7 +20,7 @@
 
 ***Linux:***
 
-`> pip install requests`
+`$ pip install requests`
 
 
 ***Mac***
