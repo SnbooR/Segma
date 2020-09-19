@@ -43,7 +43,7 @@
 
 ***Shows the current weather for specific city using openweather API***
 
-* Note: *You will need an api key* from https://openweathermap.org/api *to recive data for weather*
+* Note: *You will need an api key* from [openweather](https://openweathermap.org/api) *to recive data for weather*
 
 ```whois```
 
