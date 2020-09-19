@@ -53,7 +53,7 @@
 
 ***to show the user's avatar***
 
-```inv```
+```invite```
 
 ***to invite my own bot to your server***
 
