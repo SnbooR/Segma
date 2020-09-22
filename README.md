@@ -36,21 +36,33 @@
 ## Core Commands
 
 >help
+* ***Shows the main help Command***
 
 >weather
+* ***Show the weather for a specific city using*** [OpenWeatherAPI](https://openweathermap.org/api)
 
 >whois
+* ***a command to show info about the member***
 
 >sinfo
+* ***a command to show info about the server***
 
 >avatar
+* ***shows the member's avatar***
 
 >ping
+* ***pings the bot***
 
 ## Moderation
 
 >ban
+* ***a command to ban members***
+
+>unban
+* ***a command to unban members***
 
 >kick
+* ***kicks a member***
 
 >clean
+* ***clean a specific amount of texts in a channel***
