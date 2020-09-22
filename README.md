@@ -33,28 +33,24 @@
 
 
 
-## Bot Commands:
+## Core Commands
 
-```help```
+>help
 
-***Show what Commands are avilable***
+>weather
 
-```Weather```
+>whois
 
-***Shows the current weather for specific city using openweather API***
+>sinfo
 
-* Note: *You will need an api key* from [openweather](https://openweathermap.org/api) *to recive data for weather*
+>avatar
 
-```whois```
+>ping
 
-***Simple whois command to show the user's Date Like when did he join the server, User's ID and Display name. Very simple***
+## Moderation
 
-```avatar```
+>ban
 
-***to show the user's avatar***
+>kick
 
-```invite```
-
-***to invite my own bot to your server***
-
-* Note: May not be online!
+>clean
