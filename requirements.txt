@@ -1,0 +1,3 @@
+discord-pretty-help
+requests
+psutil
