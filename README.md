@@ -69,3 +69,5 @@
 
 >clean
 * ***clean a specific amount of texts in a channel***
+
+# More coming soon!
