@@ -31,7 +31,7 @@
 
 ```$ pip install requests```
 
-
+* install the requirments.txt for other fixes
 
 ## Core Commands
 
