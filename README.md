@@ -70,4 +70,9 @@
 >clean
 * ***clean a specific amount of texts in a channel***
 
-# More coming soon!
+# Planned stuff
+
+* Fun commands
+* checks
+* utility
+* more moderation commands
