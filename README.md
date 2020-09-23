@@ -76,4 +76,4 @@
 * checks
 * utility
 * more moderation commands
-* SubCommands
+* SubClasses
