@@ -12,13 +12,13 @@ class Join_Leave(commands.Cog):
 
     @commands.Cog.listener()
     async def on_member_join(self, member):
-        channel = self.bot.get_channel(411804307302776835)
+        channel = self.bot.get_channel("channel_id")
         await channel.send(f'Welcome to the server {member.mention}')
 # leaving
 
     @commands.Cog.listener()
     async def on_member_remove(self, member):
-        channel = self.bot.get_channel(411804307302776835)
+        channel = self.bot.get_channel("channel_id")
         await channel.send(f'Member has just left {member.mention}')
 
 def setup(bot):
