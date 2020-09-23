@@ -1,6 +1,6 @@
 # Segma.
 
-***Segma is my 2nd bot written in python3, with cogs make it easier to manage***
+***Segma is a bot i made written in python3, with cogs make it easier to manage***
 
 
 
@@ -66,3 +66,7 @@
 
 >clean
 * ***clean a specific amount of texts in a channel***
+
+
+>info
+* ***get info about the bot***
