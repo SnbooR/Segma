@@ -49,7 +49,7 @@ class Core(commands.Cog, name="core"):
                 embed.add_field(name="Humidity(%)", value=f"**{current_humidity}%**", inline=False)
                 embed.add_field(name="Atmospheric Pressure(hPa)", value=f"**{current_pressure}hPa**", inline=False)
                 embed.set_thumbnail(url="https://i.ibb.co/CMrsxdX/weather.png")
-                embed.set_footer(text=f"Coded by {owner} with ❤ using discord.py", icon_url="https://www.python.org/static/opengraph-icon-200x200.png")
+                embed.set_footer(text=f"Requested by: {ctx.author}", icon_url="https://www.python.org/static/opengraph-icon-200x200.png")
 
                 await channel.send(embed=embed)
         else:
