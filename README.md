@@ -1,6 +1,6 @@
 # Segma.
 
-***Segma is my 2nd bot written in python3, this time i add cogs to make it easier to manage***
+***Segma is my 2nd bot written in python3, with cogs make it easier to manage***
 
 
 
