@@ -44,6 +44,9 @@
 >whois
 * ***a command to show info about the member***
 
+>info
+* ***info about the bot***
+
 >sinfo
 * ***a command to show info about the server***
 
@@ -66,7 +69,3 @@
 
 >clean
 * ***clean a specific amount of texts in a channel***
-
-
->info
-* ***get info about the bot***
