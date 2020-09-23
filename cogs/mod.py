@@ -77,7 +77,7 @@ class Moderation(commands.Cog):
         embed = discord.Embed(title=f"{ctx.author.name} purgeed: {ctx.channel.name}", description=f"{amount} messages", inline=False)
         await channel.send(embed=embed)
 
-    #mute command
+    #mute command - note! not working currently
     @commands.command(name="mute")
     @commands.has_guild_permissions(mute_members=True)
     @commands.guild_only()
